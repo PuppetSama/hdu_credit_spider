@@ -1,11 +1,5 @@
 # -*- coding：utf-8 -*-
-'''
-urllib——用于表单数据的生成
-urllib2——必要的库，不再赘述
-cookielib——提供可存储cookie的对象，以便于与urllib2模块配合使用来访问Internet资源
-re——用于正则表达式
-HTMLParser——用于处理html代码的转义字符
-'''
+
 import urllib.request, urllib.error, urllib.parse
 import re
 import http.cookiejar
